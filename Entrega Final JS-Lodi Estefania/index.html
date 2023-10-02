@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Banco Lodi</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="menu">
+            <h1>Bienvenido al Banco Lodi</h1>
+            <button onclick="mostrarFormulario('agregar')">Agragar un cliente</button>
+            <button onclick="mostrarFormulario('modificacion')">Modificar cliente</button>
+            <button onclick="mostrarFormulario('baja')">Baja de cliente</button>
+        </div>
+        
+        <div id="formulario" class="form-container"></div>
+        <div id="mensaje" class="mensaje"></div>
+        <div id="documento" class="documento"></div>
+        <div id="resultado" class="resultado"></div>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
